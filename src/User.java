@@ -5,19 +5,19 @@ public class User {
     public String getHP() {
         return HP;
     }
-
     public void setHP(String HP) {
         this.HP = HP;
     }
-
     public String getNama() {
         return nama;
     }
-
     public void setNama(String nama) {
         this.nama = nama;
     }
     public String getInfo(){
-        return "hallo Saya"+this.nama;
+        return "Saya "+this.nama;
+    }
+    public String getMerk(){
+        return "Merk hp " +this.HP;
     }
 }

@@ -5,5 +5,13 @@ public class Main {
 
         newUser.setNama("Santuy");
         newUser.setHP("Nexian");
+
+        System.out.println(newUser.getInfo());
+        System.out.println(newUser.getMerk());
+
+        TestingFeature1 newTest = new TestingFeature1();
+        newTest.setCoverange(40);
+
+        System.out.println(newTest);
     }
 }
