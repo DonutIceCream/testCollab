@@ -1,6 +1,6 @@
 public class User {
     String HP;
-    String user;
+    String nama;
 
     public String getHP() {
         return HP;
@@ -10,11 +10,14 @@ public class User {
         this.HP = HP;
     }
 
-    public String getUser() {
-        return user;
+    public String getNama() {
+        return nama;
     }
 
-    public void setUser(String user) {
-        this.user = user;
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+    public String getInfo(){
+        return "hallo Saya"+this.nama;
     }
 }
