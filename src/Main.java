@@ -3,8 +3,6 @@ public class Main {
         System.out.println("Hallo Guys");
         User newUser = new User();
 
-        newUser.setNama("Santuy");
-        newUser.setHP("Nexian");
 
         System.out.println(newUser.getInfo());
         System.out.println(newUser.getMerk());
@@ -13,5 +11,8 @@ public class Main {
         newTest.setCoverange(40);
 
         System.out.println(newTest);
+
+        newUser.setNama("Tobi");
+        newUser.setHP("huawei");
     }
 }
